@@ -1,5 +1,7 @@
 # Apache_SQLServer_docker
 
+Used for create project that needs SQL  Server as database and needs apache as it webserver
+
 Prerequisites :
 1. [Docker](https://www.docker.com/) Installed on your system.
 
@@ -8,6 +10,7 @@ Included :
 - MSSQL Server Driver
 - SQL Server Database
 - And several php extensions
+- bash scripts<sup>*</sup>
 ----
 
 **Make sure you put the PHP projects to www folder**
@@ -24,4 +27,4 @@ or
 docker-compose down --rmi local 
 ```
 
-Used for create project that needs SQL  Server as database and needs apache as it webserver
+> create bash script to create `.env` file that used for connecting to sql server database if needed. Last time, my php project need containerID as a host for connect to the database.
