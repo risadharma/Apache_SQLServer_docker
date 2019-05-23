@@ -10,12 +10,14 @@ Included :
 - And several php extensions
 ----
 
-#### Start Server
+**Make sure you put the PHP projects to www folder**
+
+##### Start Server
 ```
 docker-compose up -d
 ```
 
-#### Stop Server
+##### Stop Server
 ```
 docker-compose down
 or
